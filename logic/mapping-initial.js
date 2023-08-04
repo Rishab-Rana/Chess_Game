@@ -12,7 +12,6 @@ for (const i of arrayOfFiles)
    for(const el of i.children)
    {
     el.setAttribute("id",filesNameArray[fileNumber]+counter)
-    console.log(el)
     counter--;
    }
    fileNumber++
